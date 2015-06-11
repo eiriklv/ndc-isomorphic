@@ -1,10 +1,10 @@
 const React = require('react');
-const getNdcVideos = require('../services/get-ndc-videos');
+const getNdcVideos = require('../services/get-latest-ndc-videos');
 
 const App = require('../components/App.jsx');
 
 module.exports = (req, res) => {
-  getNdcVideos(1, 10, (err, videos) => {
+  getNdcVideos((err, videos) => {
     if (err) return res.send(err);
 
     let appMarkup = React.renderToString(

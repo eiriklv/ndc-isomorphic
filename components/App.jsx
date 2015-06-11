@@ -14,7 +14,7 @@ const App = React.createClass({
           key={i}
           name={video.name}
           description={video.description}
-          picture={video.pictures.sizes[1].link}
+          picture={video.pictures.sizes[2].link}
         />
       );
     });
