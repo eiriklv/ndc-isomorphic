@@ -3,9 +3,7 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
 
-  entry: {
-    bundle: './render/client.js',
-  },
+  entry: './render/client.js',
 
   output: {
     filename: 'public/[name].js'

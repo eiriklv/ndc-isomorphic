@@ -1,6 +1,8 @@
 Isomorphic JavaScript Demo NDC
 ------------------------------
 
+Register on vimeo and create an application to get a `CLIENT_ID`, `CLIENT_SECRET` and `ACCESS_TOKEN`.
+
 ## Development script example
 
 ```bash
